@@ -49,10 +49,13 @@ section{
 	line-height: 2;
 }
 
+
 section img {
 	float:left;
 	margin-right: 10px;
-	margin-bottom: 10px;
+	display:inline-block;
+	
+	
 }
 
 .about-me{
@@ -178,3 +181,55 @@ input.button{
     width:100px;
     font-size:16px;
 }
+
+.outer-hangman img{ 
+margin-right: -10px;
+position:relative;
+}
+.outer {
+	position:relative;
+	width:350px;
+	padding:20px;
+	float:left;
+}
+
+.outer-hangman {
+	position:relative;
+	display:inline-block;
+	float:left;
+	padding:20px;
+
+}
+
+.outer-rpg{
+	position:relative;
+	display:inline-block;
+	float:right;
+	padding:20px;
+}
+
+.inner-hangman, .inner-rpg, .inner{
+	background:#4aaaa5;
+	position:absolute;
+	bottom:10px;
+	width:210px;
+	text-align: center;
+	color:white;
+}
+
+.outer-rutger{
+	position:relative;
+	display:inline-block;
+	float:right;
+	padding:20px;
+}
+
+
+.outer-trivia {
+	position:relative;
+	display:inline-block;
+	float:left;
+	padding:20px;
+
+}
+
